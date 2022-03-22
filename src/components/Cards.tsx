@@ -14,13 +14,13 @@ const Cards = ({ arr, destroyArr }: ICard) => {
   }
 
   return (
-    <div className="">
+    <div className="d-flex">
       {
         arr && arr.map((txt, index) => (
-          <div key={index} className='col-md-4'>
+          <div key={index} style={{order: -index}} className=''>
             <Card className="card-bg mb-3">
               <Card.Body className="align-items-center d-flex justify-content-between">
-                <div className="lead mr-2">{txt}</div>
+                <div className="mr-2">{txt}</div>
                 <div onClick={()=> trashArr(index)}><Button type="submit" fontColor="#ffffff" bgColor="black" hoverColor="#333"><VscTrash /></Button></div>
               </Card.Body>
             </Card>

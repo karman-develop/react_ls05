@@ -23,7 +23,7 @@ const Form = ({value, setValue, createArr}: IForm) => {
         <Container>
           <form onSubmit={submitForm}>
             <div className="align-items-center d-flex justify-content-center">
-              <input className="" type="text" value={value} onChange={(e)=> setValue(e.target.value)} placeholder="(^_^)" />
+              <input className="" type="text" value={value} onChange={(e)=> setValue(e.target.value)} placeholder="…" />
               <Button type="submit" fontColor="#ffffff" bgColor="blueviolet" hoverColor="#5e1c9c">
                 <HiOutlineSave className="lead" />
               </Button>

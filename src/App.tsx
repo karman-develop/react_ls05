@@ -7,7 +7,7 @@ import Form from './components/Form';
 
 function App() {
 
-  const [value, setValue] = useState<string>('Write a task.')
+  const [value, setValue] = useState<string>('')
 
   const [arr, setArr] = useState<string[]>([])
 

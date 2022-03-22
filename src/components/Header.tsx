@@ -17,9 +17,9 @@ const Header = () => {
 
   return (
     <>
-      <div className="border border-dark mb-2 pt-2 pb-2 px-3">
+      <div className="border border-dark mb-2 py-2 px-3">
         <div>
-          <img width="60" src="/img/todo_icon.svg" alt="" />
+          <img width="60" src="/img/todo_icon.svg" alt="todo icon" />
         </div>
       </div>
     </>
